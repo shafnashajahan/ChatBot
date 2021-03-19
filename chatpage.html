@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>LoveONN ChatBot</title>
+  <link rel="stylesheet" type="text/css" href="chat.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600%7CRoboto:300,400,500" media="all">
+  <link rel="stylesheet" href="switchery.min.css" />
+  <link rel="stylesheet" type="text/css" href="loaders.min.css">
+</head>
+
+<script src="training_sentence.py"></script>
+<script src="testing_sentence.py"></script>
+
+
+<body>
+      <div class="title">ChatBot</div>
+      <div class="toggle">
+        <label class="toggle-wrapper" id="help-toggle"  style="display:none;"> Help with the development
+          <input type="checkbox" class="js-help-switch" checked />
+          <div class="toggle-tooltip" style="display:none;"> You can help! 
+            <div class="close" data-dynamite-selected="true">x</div>
+          </div>
+        </label>
+      </div>
+    </div>
+    <ul class="messages scrollbar-custom theme1"></ul>
+    <div class="bottom_wrapper clearfix">
+      <div class="message_input_wrapper">
+        <input class="message_input" placeholder="Type your message here..." />
+      </div>
+      <div class="send_message">
+        <div class="icon" style="display:none"></div>
+        <div class="input-group mb-3" href='//Users//user//OneDrive//miniproject//OneDrive//Desktop//LNxxxx8293-A-2--main//LNxxxx8293-A-2--main//jhalaksharma//training_sentence.py' id="input"></div>
+        <div class="text"onclick="location.href='//Users//user//OneDrive//miniproject//OneDrive//Desktop//LNxxxx8293-A-2--main//LNxxxx8293-A-2--main//jhalaksharma//training_sentence.py'" type="button" id="button-addon2">Send</div>
+      </div>
+    </div>
+  </div>
+
+ 
+  
+  <div class="message_template">
+    <li class="message">
+      <div class="text_wrapper feedback" id="wrapper" style="width: 0px; opacity: 0;">
+        <div class="intent-info"  style="display: none">
+          <form id="question">
+            <p>Feedback Question</p>
+          <span class="intent">intent name</span>
+            <div class="feedback-btn-container">
+              <span class="feedback_yes btn green">✓</span>
+              <span class="feedback_no btn red">X</span>
+            </div>
+            </form>
+          </form>
+        </div>
+      </div>
+      <div class="avatar"></div>
+      <div class="text_wrapper">
+        <div class="text"></div>
+        <div class="message-time"></div>
+      </div>
+    </li>
+  </div>  
+  <div id="checkTemplate" style="display:none">
+    <div id ="checkYes" style="display:none">
+      <svg class="checkmark positive" id="check-1" viewBox="0 0 52 52"><circle class="circle positive" cx="26" cy="26" r="25" fill="none"/><path class="check" fill="none" d="M14.1 27.2l7.1 7.2 16.7-16.8"/></svg> </div>
+      <div id ="checkNo" style="display:none">
+      <svg class="checkmark negative" id="check-1" viewBox="0 0 52 52"><circle class="circle negative" cx="26" cy="26" r="25" fill="none"/><path class="check" fill="none" d="M13 13 L38 38 M13 38 L38 13"/></svg> </div>
+  </div>
+</body>
+
+
+</html>

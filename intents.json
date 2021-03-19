@@ -1,0 +1,752 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+         "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+         "responses": ["I can guide you through Adverse drug reaction list, Blood pressure tracking, Hospitals and Pharmacies", "Offering support for Adverse drug reaction, Blood pressure, Hospitals and Pharmacies"],
+         "context": [""]
+        },
+        {"tag": "about",
+        "patterns": ["Who are you?", "What are you?", "Who you are?" ],
+        "responses": ["I.m bot, your bot assistant", "I'm bot, an Artificial Intelligent bot"]
+        },
+        {"tag": "name",
+        "patterns": ["what is your name", "what should I call you", "whats your name?"],
+        "responses": ["You can call me bot.", "I'm Joana!", "Just call me as bot"]
+        },
+        {"tag": "help",
+        "patterns": ["Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please"],
+        "responses": ["Tell me how can assist you", "Tell me your problem to assist you", "Yes Sure, How can I support you"]
+        },
+        {"tag": "createaccount",
+        "patterns": ["I need to create a new account", "how to open a new account", "I want to create an account", "can you create an account for me", "how to open a new account"],
+        "responses": ["You can just easily create a new account from our web site", "Just go to our web site and follow the guidelines to create a new account"]
+        },
+        {"tag": "complaint",
+        "patterns": ["have a complaint", "I want to raise a complaint", "there is a complaint about a service"],
+        "responses": ["Please provide us your complaint in order to assist you", "Please mention your complaint, we will reach you and sorry for any inconvenience caused"]
+        },
+     
+    
+        {"tag": "Amargo",
+         "patterns": ["scientific name of Amargo" ], "responses": ["Quassia amara L"],"context": [""]
+        },
+         {"tag": "Amargo1",
+         "patterns": ["plant type of Amargo" ],"responses": ["shrubs"], "context": [""]
+        },
+        {"tag": "Amargo2",
+         "patterns": ["Description of Amargo" ],"responses": ["A small, multistemmed and slow growing tree with a disorderly growth twiggy limbs. It is a shrub or rarely a small tree, reaching a height up to 6 metres.The pinnate with 3-5 leaflets, deeply veined, polished alternated dark green leaves are 15–25 cm long and distinctive for their broadly winged axis and reddish veins. Leaf rachis are winged. Terminal red-branched racemes of panicles, 10–30 cm long, produces narrow, vivid crimson flowers, 2.5-3.5 cm long, that decorate the tips of each little limb. The flower comprises 5 lanceolate petals, which remain mostly closed together forming a sharpening cylinder.The flowers are produced in a panicle 15–25 cm long, each flower 2.5-3.5 cm long, bright red on the outside, and white inside. They are generally open for two days during the flowering period and each inflorescence presents on to four open flowers at once. The flowers are fragile and sometimes fall from the rachis at the slightest touch. The fruits, five small eliptic, fleshy, purple black drupes, 0.8-1.5 cm long, replace the flower and turn red as they mature. Every fruit contains one small seedling. All parts of Q. amara contain the bitter Quassimarin."], "context": [""]
+        },
+        
+        {"tag": "Amargo3",
+         "patterns": ["use type of Amargo" ],"responses": ["Edible"], "context": [""]
+        },
+        
+        {"tag": "Amargo4",
+         "patterns": ["what are the uses of Amargo" ],"responses": ["This plant using in homeopathy  for gastric and intestinal complaints."], "context": [""]
+        },
+        
+        {"tag": "Amargo5",
+         "patterns": ["side effect of Amargo" ],"responses": ["long time use can cause vision changes and blindness"], "context": [""]
+        },
+        {"tag": "Amargo6",
+         "patterns": [" Amargo plant part to eat " ],"responses": ["Its wood and leaves are using."], "context": [""]
+        },
+        {"tag": "Amargo7",
+         "patterns": ["what are the disease to cure by using  Amargo","the disease to cure by using  Amargo" ],"responses": ["gastric and intestinal complaints"], "context": [""]
+        },
+        
+        
+        {"tag": "Syrian Rue",
+         "patterns": ["scientific name of Syrian Rue" ], "responses": ["Paganum harmala"],"context": [""]
+        },
+        {"tag": "Syrian Rue1",
+         "patterns": ["plant type of Syrian Rue" ],"responses": ["shrubs"], "context": [""]
+        },
+        {"tag": "Syrian Rue2",
+         "patterns": ["Description of Syrian Rue" ],"responses": ["It is a perennial, herbaceous, suffrutescent, hemicryptophyte plant, which dies off in the winter, but regrows from the rootstock the following spring. It can grow to about 0.8 m (3 ft) tall,[8] but normally it is about 0.3 m (1 ft) tall.The entire plant is hairless (glabrous). Plants are bad tasting and smell foul when crushed."], "context": [""]
+        },
+        
+        {"tag": "Syrian Rue3",
+         "patterns": ["use type of Syrian Rue" ],"responses": ["Edible"], "context": [""]
+        },
+        
+        {"tag": "Syrian Rue4",
+         "patterns": ["what are the uses of Syrian Rue" ],"responses": [" It is used as an analgesic, antibacterial, antiflatulent, anthelmintic, blood purifier, expectorant, oxytropic, galactogogue, emmenagogue and anticonvulsant. Medicated’ oil is used in earache."], "context": [""]
+        },
+        
+        {"tag": "Syrian Rue5",
+         "patterns": ["side effect of Syrian Rue" ],"responses": ["high amount of syrin cause death, affecting nervous system, liver, heart, and kidney"], "context": [""]
+        },
+        {"tag": "Syrian Rue6",
+         "patterns": [" Syrian Rue plant part to eat " ],"responses": ["leaves,flower and fruits"], "context": [""]
+        },
+        {"tag": "Syrian Rue7",
+         "patterns": ["what are the disease to cure by using  Syrian Rue","the disease to cure by using  Syrian Rue" ],"responses": ["earache,Uterus contraction"], "context": [""]
+        },
+        
+        
+        {"tag": "Bael tree ",
+         "patterns": ["scientific name of Bael tree " ], "responses": ["Aegle marmelos"],"context": [""]
+        },
+        {"tag": "Bael tree1",
+         "patterns": ["plant type of Bael tree " ],"responses": ["tree"], "context": [""]
+        },
+        {"tag": "Bael tree2",
+         "patterns": ["Description of Bael tree" ],"responses": ["The bark is pale brown or grayish, smooth or finely fissured and flaking, armed with long straight spines, 1.2–2.5 cm singly or in pairs, often with slimy sap oozing out from cut parts. The gum is also described as a clear, gummy sap, resembling gum arabic, which exudes from wounded branches and hangs down in long strands, becoming gradually solid. It is sweet at first taste and then irritating to the throat.The leaf is trifoliate, alternate, each leaflet 5-14 x 2–6 cm, ovate with tapering or pointed tip and rounded base, untoothed or with shallow rounded teeth. Young leaves are pale green or pinkish, finely hairy while mature leaves are dark green and completely smooth. Each leaf has 4–12 pairs of side veins which are joined at the margin.The flowers are 1.5 to 2 cm, pale green or yellowish, sweetly scented, bisexual, in short drooping unbranched clusters at the end of twigs and leaf axils. They usually appear with young leaves. The calyx is flat with 4(5) small teeth. The four or five petals of 6–8 mm overlap in the bud. Many stamens have short filaments and pale brown, short style anthers. The ovary is bright green with an inconspicuous disc.The bael fruit typically has a diameter of between 5 and 12 cm. It is globose or slightly pear-shaped with a thick, hard rind and does not split upon ripening. The woody shell is smooth and green, gray until it is fully ripe when it turns yellow. Inside are 8 to 15 or 20 sections filled with aromatic orange pulp, each section with 6 (8) to 10 (15) flattened-oblong seeds each about 1 cm long, bearing woolly hairs and each enclosed in a sac of adhesive, transparent mucilage that solidifies on drying. The exact number of seeds varies in different publications."], "context": [""]
+        },
+        
+        {"tag": "Bael tree3",
+         "patterns": ["use type of Bael tree" ],"responses": ["Edible"], "context": [""]
+        },
+        
+        {"tag": "Bael tree4",
+         "patterns": ["what are the uses of Bael tree" ],"responses": [" leaf juice is put in the eyes and paste of leaves is applied over the eyelids, In disease conditions like swelling, pain in the ribs. Roots are useful in vata disorders, fruit iv disorders of internal channel. Bel, durva and tulasi re used in vata, pitta and kapha disorders especially. "], "context": [""]
+        },
+        
+        {"tag": "Bael tree5",
+         "patterns": ["side effect of Bael tree" ],"responses": ["constipation, stomach upset"], "context": [""]
+        },
+        {"tag": "Bael tree6",
+         "patterns": ["  Bael tree plant part to eat " ],"responses": ["fruits and seeds Mainly unripe fruit "], "context": [""]
+        },
+        {"tag": "Bael tree7",
+         "patterns": ["what are the disease to cure by using Bael tree ","the disease to cure by using Bael tree " ],"responses": ["Digestive system, reproductive system"], "context": [""]
+        },
+        
+        
+        
+                {"tag": "Senna",
+         "patterns": ["scientific name of Senna" ], "responses": ["Senna alexandrina (Cassia senna)"],"context": [""]
+        },
+        {"tag": "Senna1",
+         "patterns": ["plant type of Senna" ],"responses": ["tree"], "context": [""]
+        },
+        {"tag": "Senna2",
+         "patterns": ["Description of Senna" ],"responses": ["Senna includes herbs, shrubs, and trees. The leaves are pinnate with opposite paired leaflets. The inflorescences are racemes at the ends of branches or emerging from the leaf axils. The flower has five sepals and five usually yellow petals. There are ten straight stamens. The stamens may be different sizes, and some are staminodes. The fruit is a legume pod containing several seeds."], "context": [""]
+        },
+        
+        {"tag": "Senna3",
+         "patterns": ["use type of Senna" ],"responses": ["Edible"], "context": [""]
+        },
+        
+        {"tag": "Senna4",
+         "patterns": ["what are the uses of Senna" ],"responses": ["  Senna alexandrina was used in the form of senna pods, or as herbal tea made from the leaves, as a laxative. It also serves as a fungicide."], "context": [""]
+        },
+        
+        {"tag": "Senna5",
+         "patterns": ["side effect of Senna" ],"responses": ["abdominal pain, diarrhea, potentially carcinogenic, with others can potentiate cardiac glycosides and antiarrhythmic agents, liver damage"], "context": [""]
+        },
+        {"tag": "Senna6",
+         "patterns": [" Senna  plant part to eat " ],"responses": ["seeds"], "context": [""]
+        },
+        {"tag": "Senna7",
+         "patterns": ["what are the disease to cure by using Senna ","the disease to cure by using Senna " ],"responses": ["laxative,fungiside"], "context": [""] },
+        
+                {"tag": "St John's wort",
+         "patterns": ["scientific name of St John's wort" ], "responses": [" Hypericum perforatum"],"context": [""]
+        },
+        {"tag": "St John's wort1",
+         "patterns": ["plant type of St John's wort" ],"responses": ["shrubs"], "context": [""]
+        },
+        {"tag": "St John's wort2",
+         "patterns": ["Description of St John's wort" ],"responses": ["Perforate St John's wort is a herbaceous perennial plant with extensive, creeping rhizomes. Its reddish stems are erect and branched in the upper section, and can grow up to 1 m (3 ft 3 in) high. The stems are woody near their base and may appear jointed from leaf scars. The branches are typically clustered about a depressed base. It has opposite and stalkless leaves that are narrow and oblong in shape and 1–2 cm (0.39–0.79 in) long.Leaves borne on the branches subtend the shortened branchlets. The leaves are yellow-green in color, with scattered translucent dots of glandular tissue. The dots are conspicuous when held up to the light, giving the leaves the perforated appearance to which the plant's Latin name refers. The flowers measure up to 2.5 cm (0.98 in) across, have five petals and sepals, and are colored bright yellow with conspicuous black dots.The flowers appear in broad helicoid cymes at the ends of the upper branches, between late spring and early to mid summer. The cymes are leafy and bear many flowers. The pointed sepals have black glandular dots. The many stamens are united at the base into three bundles. The pollen grains are ellipsoidal.The black and lustrous seeds are rough, netted with coarse grooves."], "context": [""]
+        },
+        
+        {"tag": "St John's wort3",
+         "patterns": ["use type of St John's wort" ],"responses": ["Edible"], "context": [""]
+        },
+        
+        {"tag": "St John's wort4",
+         "patterns": ["what are the uses of St John's wort" ],"responses": ["  St John's wort, has been used for centuries to treat nerve damage, sciatica and back pain. The flowers and leaves of Hypericum are full of natural phytochemicals, and can be used internally as well as topically to tone and restore the health of nerves."], "context": [""]
+        },
+        
+        {"tag": "St John's wort5",
+         "patterns": ["side effect of St John's wort" ],"responses": ["allergic reactions, fatigue, dizziness, confusion, dry mouth"], "context": [""]
+        },
+        {"tag": "St John's wort6",
+         "patterns": ["St John's wort   plant part to eat " ],"responses": ["flower, leaves"], "context": [""]
+        },
+        {"tag": "St John's wort7",
+         "patterns": ["what are the disease to cure by using St John's wort ","the disease to cure by using St John's wort " ],"responses": ["nerve damage, sciatica and back pain"], "context": [""]
+        },
+        
+        {"tag": "Valerian",
+         "patterns": ["scientific name of Valerian" ], "responses": ["Valeriana officinalis"],"context": [""]
+        },
+        {"tag": "Valerian1",
+         "patterns": ["plant type of Valerian" ],"responses": ["shrubs"], "context": [""]
+        },
+        {"tag": "Valerian2",
+         "patterns": ["Description of Valerian" ],"responses": ["Valerian is a perennial flowering plant native to Europe and Asia.In the summer when the mature plant may have a height of 1.5 metres (5 ft), it bears sweetly scented pink or white flowers that attract many fly species, especially hoverflies of the genus Eristalis.It is consumed as food by the larvae of some Lepidoptera species, including the grey pug. Crude extract of valerian root may have sedative and anxiolytic effects, and is commonly sold in dietary supplement capsules to promote sleep."], "context": [""]
+        },  
+
+        {"tag": "Valerian3",
+         "patterns": ["use type of Valerian" ],"responses": ["Edible"], "context": [""]
+        },
+        
+        {"tag": "Valerian4",
+         "patterns": ["what are the uses of Valerian" ],"responses": ["valerian is a common traditional medicine used for treating insomnia, there is no good evidence it is effective for this purpose. Valerian has not been shown to be helpful in treating restless leg syndrome or anxiety"], "context": [""]
+        },
+        
+        {"tag": "Valerian5",
+         "patterns": ["side effect of Valerian" ],"responses": ["drowsiness, GI upset, headache, palpitations, insomnia"], "context": [""]
+        },
+        {"tag": "Valerian",
+         "patterns": ["Valerian   plant part to eat " ],"responses": ["whole plant"], "context": [""]
+        },
+        {"tag": "Valerian7",
+         "patterns": ["what are the disease to cure by using Valerian ","the disease to cure by using  Valerian" ],"responses": ["insomnia"], "context": [""]
+        },
+        
+        
+        {"tag": "VATSANABHI",
+         "patterns": ["scientific name of VATSANABHI " ], "responses": ["Aconitum ferox Wall"],"context": [""]
+        },
+        {"tag": "VATSANABHI1",
+         "patterns": ["plant type of VATSANABHI" ],"responses": ["shrubs"], "context": [""]
+        },
+        {"tag": "VATSANABHI2",
+         "patterns": ["Description of VATSANABHI" ],"responses": ["Aconitum ferox is a member of the monkshood genus Aconitum of the Ranunculaceae. The common name by which it is most often known in English is Indian Aconite. The plant grows abundantly at Sandakphu, which is the highest point of the Darjeeling Hills in the Indian State of West Bengal. A tuberous-rooted, herbaceous perennial reaching 1.0 metre tall by 0.5 metres wide and tolerant of many soil types, Aconitum ferox forms the principal source of the Indian poison known variously as bikh, bish, and nabee. It contains large quantities of the extremely toxic alkaloid pseudaconitine and is considered to be the most poisonous plant found in the Himalaya and one of the most poisonous in the world."], "context": [""]
+        },
+        
+        {"tag": "VATSANABHI3",
+         "patterns": ["use type ofVATSANABHI " ],"responses": ["Edible"], "context": [""]
+        },
+        
+        {"tag": "VATSANABHI4",
+         "patterns": ["what are the uses of VATSANABHI " ],"responses": [" smoke the dried roots of Aconitum ferox, combined in a mixture with cannabis flowers, in a practice that is part consciousness-expansion by entheogen, part ordeal by poison. Aghoris, no strangers to the use of all manner of dangerous drugs, warn of the extreme danger posed by smoking mixtures containing aconite, and restrict their use to the most experienced adepts of their particular school of Shaivism, as being potentially lethal"], "context": [""]
+        },
+        
+        {"tag": "VATSANABHI5",
+         "patterns": ["side effect of VATSANABHI " ],"responses": ["fatal effect "], "context": [""]
+        },
+        {"tag": "VATSANABHI6",
+         "patterns": [" VATSANABHI  plant part to eat " ],"responses": ["Whole plant "], "context": [""]
+        },
+        {"tag": "VATSANABHI7",
+         "patterns": ["what are the disease to cure by using VATSANABHI ","the disease to cure by using VATSANABHI " ],"responses": ["remove poisons from body"], "context": [""]
+        },
+        
+        
+        
+        
+        {"tag": "Black Maidenhair",
+         "patterns": ["scientific name of Black Maidenhair" ], "responses": ["Adiantum lunulatum Burm."],"context": [""]
+        },
+        {"tag": "Black Maidenhair1",
+         "patterns": ["plant type of Black Maidenhair " ],"responses": ["herbs"], "context": [""]
+        },
+        {"tag": "Black Maidenhair2",
+         "patterns": ["Description of Black Maidenhair" ],"responses": ["They are distinctive in appearance, with dark, often black stipes and rachises, and bright green, often delicately cut leaf tissue. The sori are borne submarginally, and are covered by reflexed flaps of leaf tissue which resemble indusia. Dimorphism between sterile and fertile fronds is generally subtle. They generally prefer humus-rich, moist, well-drained sites, ranging from bottomland soils to vertical rock walls. Many species are especially known for growing on rock walls around waterfalls and water seepage areas. "], "context": [""]
+        },
+        
+        {"tag": "Black Maidenhair3",
+         "patterns": ["use type of Black Maidenhair" ],"responses": ["Edible"], "context": [""]
+        },
+        
+        {"tag": "Black Maidenhair4",
+         "patterns": ["what are the uses ofBlack Maidenhair " ],"responses": [" it is used in diarrhoea and intestinal worms. It is useful in bleeding disorders and other blood disorders since it is pittashamak. It is useful in pneumonitis, rhinitis. bronchitis and asthma since it is an expectorant. As it is vatapittashamak, it helps in dysuria by increasing urine flow.antidote and has wound healing properties, it is used in urticaria, plague and spider poisoning to reduce swelling, pain and burning sensation."], "context": [""]
+        },
+        
+        {"tag": "Black Maidenhair5",
+         "patterns": ["side effect of Black Maidenhair" ],"responses": ["large amount of fern may cause vomiting in some people."], "context": [""]
+        },
+        {"tag": "Black Maidenhair6",
+         "patterns": ["   Black Maidenhair plant part to eat" ],"responses": ["Whole plant "], "context": [""]
+        },
+        {"tag": "Black Maidenhair7",
+         "patterns": ["what are the disease to cure by using  ","the disease to cure by using  " ],"responses": ["atrophy, emaciation , cachexy, muscular pain, Ulcers, wounds, fever, skin disease, cough, piles"], "context": [""]
+        },
+        
+
+        {"tag": "Peony",
+         "patterns": ["scientific name of Peony" ], "responses": ["Radix Paeoniae Alba, Radix Paeoniae Rubra, Paeonia, Paeonia alba"],"context": [""]
+        },
+        {"tag": " Peony1",
+         "patterns": ["plant type of  Peony" ],"responses": ["shrubs"], "context": [""]
+        },
+        {"tag": " Peony2",
+         "patterns": ["Description of  Peony" ],"responses": ["Paeonia obovata is a polyploid complex, and shows much morphological variability.  It is a perennial herbaceous plant of 30–70 cm high, which dies down in the autumn, and overwinters with buds just under the surface of the soil."], "context": [""]
+        },
+        
+        {"tag":  "Peony3",
+         "patterns": ["use type of Peony " ],"responses": ["Edible"], "context": [""]
+        },
+        
+        {"tag": " Peony4",
+         "patterns": ["what are the uses of Peony " ],"responses": ["The herb known as Paeonia, in particular the root of P. lactiflora, has been used frequently in traditional medicines of Korea, China and Japan. In Japan, Paeonia lactiflora used to be called ebisugusuri foreign medicine. its root was used as a treatment for convulsions. It is also cultivated as a garden plant. In Japan Paeonia suffruticosa is called the King of Flowers and Paeonia lactiflora is called the Prime Minister of Flowers"], "context": [""]
+        },
+        
+        {"tag": " Peony5",
+         "patterns": ["side effect of  Peony" ],"responses": ["May slow clotting; contraindicated for people with bleeding disorders and before and after surgery. May induce uterine contractions; contraindicated when pregnant or nursing."], "context": [""]
+        },
+        {"tag": " Peony6",
+         "patterns": ["  Rue plant part to eat Peony " ],"responses": ["Root, stem and leaves"], "context": [""]
+        },
+        {"tag": " Peony7",
+         "patterns": ["what are the disease to cure by using  Peony ","the disease to cure by using   Peony" ],"responses": ["convulsions"], "context": [""]
+        }, 
+        
+        
+                {"tag": "Yohimbe",
+         "patterns": ["scientific name of Yohimbe " ], "responses": ["Pausinystalia johimbe"],"context": [""]
+        },
+        {"tag": "Yohimbe1",
+         "patterns": ["plant type of Yohimbe  " ],"responses": ["tree"], "context": [""]
+        },
+        {"tag": "Yohimbe2",
+         "patterns": ["Description of Yohimbe" ],"responses": ["The tree grows about 30m tall, with a straight bole that is rarely larger than 50–60 cm in diameter. The bark is grey to reddish-brown, with longitudinal fissures, easy to peel and bitter-tasting. The inner bark is pinkish and fibrous. The sapwood is yellowish and the heartwood is ochre-yellow; the wood is fine-grained and relatively dense and moderately hard. The leaves grow in groups of three, with short about 2 cm. The blades are oval-shaped, 11–47 cm long and 5 – 17 cm wide. The demand for yohimbe bark has led to over-exploitation, with the possibility of long-term threat to sustainability of the species. Cameroon is the biggest exporter."], "context": [""]
+        },
+        
+        {"tag": "Yohimbe3",
+         "patterns": ["use type of Yohimbe" ],"responses": ["Edible"], "context": [""]
+        },
+        
+        {"tag": "Yohimbe4",
+         "patterns": ["what are the uses of Yohimbe" ],"responses": ["Extracts from the bark of yohimbe are used in West African traditional medicine in the belief that it is a herbal tonic and aphrodisiac.Yohimbe bark and extract are used in manufactured dietary supplements, but there is no scientific evidence they have any effect. The levels of yohimbine present in yohimbe bark and manufactured supplements are highly variable"], "context": [""]
+        },
+        
+        {"tag": "Yohimbe5",
+         "patterns": ["side effect of Yohimbe" ],"responses": ["rapid heart rate, hypertension, hypotension, heart problems, death"], "context": [""]
+        },
+        {"tag": "Yohimbe6",
+         "patterns": [" Yohimbe plant part to eat " ],"responses": ["bark"], "context": [""]
+        },
+        {"tag": "Yohimbe7",
+         "patterns": ["what are the disease to cure by using  Yohimbe","the disease to cure by using  Yohimbe" ],"responses": [" erectile dysfunction"], "context": [""]
+        },
+        
+        
+        {"tag": "Vasambu",
+         "patterns": ["scientific name of Vasambu" ], "responses": ["Acorus calamus"],"context": [""]
+        },
+        {"tag": "Vasambu1",
+         "patterns": ["plant type of Vasambu" ],"responses": ["shrubs"], "context": [""]
+        },
+        {"tag": "Vasambu2",
+         "patterns": ["Description of Vasambu" ],"responses": ["Sweet flag is a herbaceous perennial, 2 m tall. Its leaves resembles those of the iris family. Sweet flag consists of tufts of basal leaves that rise from a spreading rhizome.The leaves are erect yellowish-brown, radical, with pink sheathing at their bases, sword-shaped, flat and narrow, tapering into a long, acute point, and have parallel veins. The leaves have smooth edges, which can be wavy or crimped. The sweet flag can be distinguished from iris and other similar plants by the crimped edges of the leaves, the fragrant odor it emits when crushed, and the presence of a spadix."], "context": [""]
+        },
+        
+        {"tag": "Vasambu3",
+         "patterns": ["use type of Vasambu" ],"responses": ["Edible"], "context": [""]
+        },
+        
+        {"tag": "Vasambu4",
+         "patterns": ["what are the uses of Vasambu" ],"responses": ["used in traditional medicine over centuries to treat digestive disorders and pain, there is no clinical evidence for its safety or efficacy – and ingested calamus may be toxic"], "context": [""]
+        },
+        
+        {"tag": "Vasambu5",
+         "patterns": ["side effect of Vasambu" ],"responses": ["Vomiting and nausea"], "context": [""]
+        },
+        {"tag": "Vasambu6",
+         "patterns": ["  Vasambu plant part to eat " ],"responses": ["Whole plant "], "context": [""]
+        },
+        {"tag": "Vasambu7",
+         "patterns": ["what are the disease to cure by using  Vasambu","the disease to cure by using  Vasambu" ],"responses": ["digestive disorder"], "context": [""]
+        },
+             
+     
+        {"tag": "Saw palmetto",
+         "patterns": ["scientific name of Saw palmetto" ], "responses": ["Serenoa repens"],"context": [""]
+        },
+        {"tag": "Saw palmetto1",
+         "patterns": ["plant type of Saw palmetto" ],"responses": ["tree"], "context": [""]
+        },
+        {"tag": "Saw palmetto2",
+         "patterns": ["Description of Saw palmetto" ],"responses": [" The leaves are light green inland, and silvery-white in coastal regions. The leaves are 1–2 m in length, the leaflets 50–100 cm long. They are similar to the leaves of the palmettos of genus Sabal. The flowers are yellowish-white, about 5 mm across, produced in dense compound panicles up to 60 cm long. The fruit is a large reddish-black drupe and is an important food source for wildlife and historically for humans. The plant is used as a food plant by the larvae of some Lepidoptera species such as Batrachedra decoctor, which feeds exclusively on the plant."], "context": [""]
+        },
+        
+        {"tag": "Saw palmetto3",
+         "patterns": ["use type of Saw palmetto" ],"responses": ["Edible"], "context": [""]
+        },
+        
+        {"tag": "Saw palmetto4",
+         "patterns": ["what are the uses of Saw palmetto" ],"responses": ["treatment for people with prostate cancer and for men with lower urinary tract symptoms associated with Benign prostatic hyperplasia "], "context": [""]
+        },
+        
+        {"tag": "Saw palmetto5",
+         "patterns": ["side effect of Saw palmetto " ],"responses": ["rare and mild gastrointestinal upset, headaches, diarrhea, gynecomastia, paroxysmal atrial fibrillation, ventricular rupture and death in one patient"], "context": [""]
+        },
+        {"tag": "Saw palmetto6",
+         "patterns": ["Saw palmetto   plant part to eat" ],"responses": ["leaves and fruit "], "context": [""]
+        },
+        {"tag": "Saw palmetto7",
+         "patterns": ["what are the disease to cure by using Saw palmetto ","the disease to cure by using Saw palmetto " ],"responses": [" prostate cancer"], "context": [""]
+        },
+        
+          
+             
+        {"tag": "Safrole",
+         "patterns": ["scientific name of Safrole" ], "responses": ["Sassafras albidum"],"context": [""]
+        },
+        {"tag": "Safrole1",
+         "patterns": ["plant type of Safrole" ],"responses": ["tree"], "context": [""]
+        },
+        {"tag": "Safrole2",
+         "patterns": ["Description of Safrole" ],"responses": ["Sassafras albidum is a medium-sized deciduous tree growing to 15–20 m tall, with a canopy up to 12 m wide, with a trunk up to 60 cm in diameter, and a crown with many slender sympodial branches.The bark on trunk of mature trees is thick, dark red-brown, and deeply furrowed. The shoots are bright yellow green at first with mucilaginous bark, turning reddish brown, and in two or three years begin to show shallow fissures. The leaves are alternate, green to yellow-green, ovate or obovate, 10–15 cm long and 5–10 cm broad with a short, slender, slightly grooved petiole. They come in three different shapes, all of which can be on the same branch; three-lobed leaves, unlobed elliptical leaves, and two-lobed leaves; rarely, there can be more than three lobes. In fall, they turn to shades of yellow, tinged with red. The flowers are produced in loose, drooping, few-flowered racemes up to 5 cm  long in early spring shortly before the leaves appear; they are yellow to greenish-yellow, with five or six tepals. It is usually dioecious, with male and female flowers on separate trees; male flowers have nine stamens, female flowers with six staminodes and a 2–3 mm style on a superior ovary. Pollination is by insects. "], "context": [""]
+        },
+        
+        {"tag": "Safrole3",
+         "patterns": ["use type of Safrole" ],"responses": ["Edible"], "context": [""]
+        },
+        
+        {"tag": "Safrole4",
+         "patterns": ["what are the uses of Safrole" ],"responses": ["All parts of the Sassafras albidum plant have been used for human purposes, including stems, leaves, bark, wood, roots, fruit, and flowers. Sassafras albidum, while native to North America, is significant to the economic, medical, and cultural history of both Europe and North America. In North America, it has particular culinary significance, being featured in distinct national foods such as traditional root beer, filé powder, and Louisiana Creole cuisine. Sassafras albidum was an important plant to many Native Americans of the southeastern United States and was used for many purposes, including culinary and medicinal purposes, before the European colonization of North America. Its significance for Native Americans is also magnified, as the European quest for sassafras as a commodity for export brought Europeans into closer contact with Native Americans during the early years of European settlement in the 16th and 17th centuries, in Florida, Virginia, and parts of the Northeast."]
+        },
+        
+        {"tag": "Safrole5",
+         "patterns": ["side effect of Safrole " ],"responses": ["Liver damage"], "context": [""]
+        },
+        {"tag": "Safrole6",
+         "patterns": [" Safrole  plant part to eat " ],"responses": ["Whole plant "], "context": [""]
+        },
+        {"tag": "Safrole7",
+         "patterns": ["what are the disease to cure by using Safrole ","the disease to cure by using Safrole " ],"responses": ["treating acne, urinary disorders, and sicknesses that increased body temperature, such as high fevers."], "context": [""]
+        },
+        
+        
+                {"tag": "Reserpine",
+         "patterns": ["scientific name of Reserpine" ], "responses": ["Rauvolfia serpentina"],"context": [""]
+        },
+        {"tag": "Reserpine1",
+         "patterns": ["plant type of Reserpine" ],"responses": ["shrubs"], "context": [""]
+        },
+        {"tag": "Reserpine2",
+         "patterns": ["Description of Reserpine" ],"responses": ["Reserpine was  highly influential in promoting the thought of a biogenic amine hypothesis of depression. Reserpine-mediated depletion of monoamine neurotransmitters in the synapses is often cited as evidence to the theory that depletion of the monoamine neurotransmitters causes subsequent depression in humans. However, this claim is not without controversy. The reserpine-induced depression is considered by some researchers to be a myth, while others claim that teas made out of the plant roots containing reserpine have a calming, sedative action that can actually be considered antidepressant.Notably, reserpine was the first compound shown to be an effective antidepressant in a randomized placebo-controlled trial. "], "context": [""]
+        },
+        
+        {"tag": "Reserpine3",
+         "patterns": ["use type of Reserpine" ],"responses": ["Edible"], "context": [""]
+        },
+        
+        {"tag": "Reserpine4",
+         "patterns": ["what are the uses of Reserpine" ],"responses": ["Reserpine is recommended as an alternative drug for treating hypertension by the JNC 8. A 2016 Cochrane review found reserpine to be as effective as other first-line antihypertensive drugs for lowering of blood pressure. The reserpine - thiazide diuretic combination is one of the few drug treatments shown to reduce mortality in randomized controlled trials: The Hypertension Detection and Follow-up Program, the Veterans Administration Cooperative Study Group in Anti-hypertensive Agents,and the Systolic Hypertension in the Elderly Program. Moreover, reserpine was included as a secondary antihypertensive option for patients who did not achieve blood pressure lowering targets in the ALLHAT study.\n\nIt was previously used to treat symptoms of dyskinesia in patients suffering from Huntington's disease, but alternative medications are preferred today"]
+        },
+        
+        {"tag": "Reserpine5",
+         "patterns": ["side effect of Reserpine " ],"responses": ["mild gastrointestinal upset, headaches, diarrhea,"], "context": [""]
+        },
+        {"tag": "Reserpine6",
+         "patterns": [" Reserpine  plant part to eat " ],"responses": ["Whole plant "], "context": [""]
+        },
+        {"tag": "Reserpine7",
+         "patterns": ["what are the disease to cure by using Reserpine","the disease to cure by using Reserpine " ],"responses": ["mental depression,  peptic ulcer."], "context": [""]
+        },
+            
+             
+        {"tag": "lady's finger",
+         "patterns": ["scientific name of lady's finger" ], "responses": ["Abelmoschus moschatus"],"context": [""]
+        },
+        {"tag": "lady's finger1",
+         "patterns": ["plant type of lady's finger" ],"responses": ["shrubs"], "context": [""]
+        },
+        {"tag": "lady's finger2",
+         "patterns": ["Description of lady's finger" ],"responses": [" "], "context": [""]
+        },
+        
+        {"tag": "lady's finger3",
+         "patterns": ["use type of lady's finger" ],"responses": ["Edible"], "context": [""]
+        },
+        
+        {"tag": "lady's finger4",
+         "patterns": ["what are the uses of lady's finger" ],"responses": ["Different parts of the plant have uses in Ayurveda herbal medicine, including as an antispasmodic and to treat gonorrhea. However, use may result in phytophotodermatitis and it has not been proven safe for use during pregnancy and lactation."]
+        },
+        {"tag": "lady's finger5",
+         "patterns": ["side effect of  lady's finger" ],"responses": ["diarrhoea"], "context": [""]
+        },
+        {"tag": "lady's finger6",
+         "patterns": ["  plant part to eat lady's finger" ],"responses": ["Whole plant "], "context": [""]
+        },
+        {"tag": "lady's finger7",
+         "patterns": ["what are the disease to cure by using ","the disease to cure by using  " ],"responses": ["cough, catarahh, oral ulcers"], "context": [""]
+        },
+          
+          
+          
+          
+        {"tag": "jequirity bean",
+         "patterns": ["scientific name of jequirity bean" ], "responses": ["Abrus"],"context": [""]
+        },
+        {"tag": "jequirity bean1",
+         "patterns": ["plant type of jequirity bean" ],"responses": ["shrubs"], "context": [""]
+        },
+        {"tag": "jequirity bean2",
+         "patterns": ["Description of jequirity bean" ],"responses": ["The seeds of Abrus precatorius are much valued in native jewelry for their bright coloration. Most beans are black and red, reminiscent of a ladybug, though other colors exist. Jewelry-making with jequirity seeds is somewhat hazardous. There are persistent reports that the workers who pierce the seeds in order to thread them can suffer poisoning or even death from a pinprick, but there seems to be little evidence. The seeds of Abrus precatorius are very consistent in weight. Formerly Indians used these seeds to weigh gold using a measure called a Ratti "], "context": [""]
+        },
+        
+        {"tag": "jequirity bean3",
+         "patterns": ["use type of jequirity bean" ],"responses": ["Edible"], "context": [""]
+        },
+        
+        {"tag": "jequirity bean4",
+         "patterns": ["what are the uses of jequirity bean" ],"responses": [" A tea is made from the leaves and used for fevers, coughs and colds. Seeds are poisonous and therefore are only consumed after heat treatment. The Tamil Siddhars knew about the toxic effects in plants and suggested various methods which is called purification."]
+        },
+        
+        {"tag": "jequirity bean5",
+         "patterns": ["side effect of  jequirity bean" ],"responses": ["Liver damage"], "context": [""]
+        },
+        {"tag": "jequirity bean6",
+         "patterns": ["jequirity bean  plant part to eat " ],"responses": ["Whole plant "], "context": [""]
+        },
+        {"tag": "jequirity bean7",
+         "patterns": ["what are the disease to cure by using jequirity bean","the disease to cure by using jequirity bean " ],"responses": ["blood purifier,atma,ulcer,alopecia,sciatic,eye disease, heart disease"], "context": [""]
+        },
+           
+        {"tag": "Malabar Nut",
+         "patterns": ["scientific name of Malabar Nut" ], "responses": ["Adhatoda vasica Nees Pennel"],"context": [""]
+        },
+        {"tag": "Malabar Nut1",
+         "patterns": ["plant type of Malabar Nut" ],"responses": ["shrubs"], "context": [""]
+        },
+        {"tag": "Malabar Nut2",
+         "patterns": ["Description of Malabar Nut" ],"responses": ["Justicia adhatoda is a shrub with lance-shaped leaves 10 to 15 centimeters in length by four wide. They are oppositely arranged, smooth-edged, and borne on short petioles. When dry they are of a dull brownish-green colour. They are bitter-tasting. When a leaf is cleared with chloral hydrate and examined microscopically the oval stomata can be seen. They are surrounded by two crescent-shaped cells at right angles to the ostiole. The epidermis bears simple one- to three-celled warty hairs, and small glandular hairs. Cystoliths occur beneath the epidermis of the underside of the blade.\n\nThe trunk has many long opposite ascending branches, where the bark is yellowish in color. Flowers are usually white and the inflorescence shows large, dense, axillary spikes. Fruits are pubescent, and are with club-shaped capsules. "], "context": [""]
+        },
+        
+        {"tag": "Malabar Nut3",
+         "patterns": ["use type of Malabar Nut " ],"responses": ["Edible"], "context": [""]
+        },
+        
+        {"tag": "Malabar Nut4",
+         "patterns": ["what are the uses ofMalabar Nut " ],"responses": ["This shrub has a number of traditional medicinal uses in Siddha Medicine, Ayurvedic, Homeopathy and Unani systems of medicine"]
+        },
+        
+        {"tag": "Malabar Nut5",
+         "patterns": ["side effect of Malabar Nut " ],"responses": ["constipation"], "context": [""]
+        },
+        {"tag": "Malabar Nut6",
+         "patterns": ["Malabar Nut  plant part to eat " ],"responses": ["Whole plant "], "context": [""]
+        },
+        {"tag": "Malabar Nut7",
+         "patterns": ["what are the disease to cure by using Malabar Nut","the disease to cure by using Malabar Nut " ],"responses": ["Cough, Asthma, Bronchitis"], "context": [""]
+        },
+        
+        
+           
+        {"tag": "Pineapple",
+         "patterns": ["scientific name of Pineapple" ], "responses": ["Ananas comosus Pennel"],"context": [""]
+        },
+        {"tag": "Pineapple1",
+         "patterns": ["plant type of Pineapple" ],"responses": ["shrubs"], "context": [""]
+        },
+        {"tag": "Pineapple2",
+         "patterns": ["Description of Pineapple" ],"responses": ["The pineapple plant is a terrestrial herb 2 1/2 to 5 ft high with a spread of 3 to 4 ft  a very short, stout stem and a rosette of waxy, strap like leaves, long-pointed, 20 to 72 in 1ong; usually needle tipped and generally bearing sharp, up curved spines on the margins. The leaves may be all green or variously striped with red, yellow or ivory down the middle or near the margins. At blooming time, the stem elongates and enlarges near the apex and puts forth a head of small purple or red flowers, each accompanied by a single red, yellowish or green bract. The stem continues to grow and acquires at its apex a compact tuft of stiff, short leaves called the top. Occasionally a plant may bear 2 or 3 heads, or as many as 12 fused together, instead of the normal one. "], "context": [""]
+        },
+        
+        {"tag": "Pineapple3",
+         "patterns": ["use type of Pineapple" ],"responses": ["Edible"], "context": [""]
+        },
+        
+        {"tag": "Pineapple4",
+         "patterns": ["what are the uses of Pineapple" ],"responses": ["Benefits of Pineapple include protecting hair and skin from damage. Sufficient Vitamin C intake can help your body create and maintain collagen an essential protein found in hair and skin. Also, a high vitamin C content helps heal wounds and injuries to the body rapidly. One cup of pineapples has 131 percent of the vitamin C daily requirements.Pineapples can help fight coughs and colds. Aside from the fighting infections with vitamin C pineapples contain a special enzyme called bromelain that is associated with reducing slam and mucus buildup in the respiratory tracts and sinus cavities.Pineapple Health Benefits include improving digestive health. Pineapples are formidable sources of fiber. Fiber can help prevent constipation, making one's bowel movements easier to manage the daily recommended dietary fiber intake for men and women are 38 grams and 25 grams respectively. Read more about home remedies for constipation to get instant relief."]
+        },
+        
+        {"tag": "Pineapple5",
+         "patterns": ["side effect of  Pineapple" ],"responses": [""], "context": [""]
+        },
+        {"tag": "Pineapple6",
+         "patterns": ["Pineapple  plant part to eat " ],"responses": ["fruit "], "context": [""]
+        },
+        {"tag": "Pineapple7",
+         "patterns": ["what are the disease to cure by using Pineapple ","the disease to cure by using  Pineapple" ],"responses": ["Sore Throat, Diabetes, Heart Disease, Obesity"], "context": [""]
+        },
+           
+      
+        {"tag": "Indian Gum",
+         "patterns": ["scientific name of Indian Gum" ], "responses": ["Acacia arabica Willd Pennel"],"context": [""]
+        },
+        {"tag": "Indian Gum1",
+         "patterns": ["plant type of Indian Gum" ],"responses": ["tree"], "context": [""]
+        },
+        {"tag": "Indian Gum2",
+         "patterns": ["Description of Indian Gum" ],"responses": ["Karaya gum is a sap-like material taken from a tree that grows in India. People use it to make medicine.\n\nKaraya gum is used as a bulk-forming laxative and to increase sexual desire, but there is no good scientific evidence to support its use. "], "context": [""]
+        },
+        
+        {"tag": "Indian Gum3",
+         "patterns": ["use type of Indian Gum" ],"responses": ["Edible"], "context": [""]
+        },
+        
+        {"tag": "Indian Gum4",
+         "patterns": ["what are the uses of Indian Gum" ],"responses": ["Constipation. Karaya gum may work as a bulk-forming laxative."]
+        },
+        
+        {"tag": "Indian Gum5",
+         "patterns": ["side effect of  Indian Gum" ],"responses": ["Pregnancy and breast-feeding: There isn't enough reliable information to know if karaya gum is safe to use when pregnant or breast-feeding. Stay on the safe side and avoid use.Blockage in the intestine Don't use any bulk-laxative, including karaya gum, if you have a bowel obstruction"], "context": [""]
+        },
+        {"tag": "Indian Gum6",
+         "patterns": ["Indian Gum  plant part to eat  " ],"responses": ["Whole plant "], "context": [""]
+        },
+        {"tag": "Indian Gum7",
+         "patterns": ["what are the disease to cure by using Indian Gum","the disease to cure by using  Indian Gum" ],"responses": ["Oral Care, Bleeding Gums, Wounds"], "context": [""]
+        },
+        
+        
+           
+        {"tag": "Thyme",
+         "patterns": ["scientific name of Thyme" ], "responses": ["Bacopa monniera Pennel Pennel"],"context": [""]
+        },
+        {"tag": "Thyme1",
+         "patterns": ["plant type of Thyme" ],"responses": ["herbs"], "context": [""]
+        },
+        {"tag": "Thyme2",
+         "patterns": ["Description of Thyme" ],"responses": ["It is a non-aromatic creeping, tropical, everlasting herb that has been rooting from the nodes. The branches are in plenty generally lying stretched out on the ground facing downwards in an area about 10 to30 cm long. The Brahmi bush rises nearly about 2 to 3 feet in height but the branches creep horizontally covering the earth. It is a herb that generally grows throughout tropical and subtropical regions around the world. It grows substantially in wetlands, bog gardens, near the ponds, and can even grow significantly in a brackish atmosphere. It favors moist surroundings in immoderate soil conditions and grows well in sand, clay, organic, coral soils, and cinder. "], "context": [""]
+        },
+        
+        {"tag": "Thyme3",
+         "patterns": ["use type of Thyme" ],"responses": ["Edible"], "context": [""]
+        },
+        
+        {"tag": "Thyme4",
+         "patterns": ["what are the uses of Thyme" ],"responses": ["It reduces stress throughout the system and helps in improving the quality of sleep at night. It is an herb that tonifies and enhances the nervous tissue and helps to relax tension within the body."]
+        },
+        
+        {"tag": "Thyme5",
+         "patterns": ["side effect of  Thyme" ],"responses": ["Pregnancy or breastfeeding: Not enough information is available regarding the safety of taking Brahmi in Pregnancy or breastfeeding. However, it is advisable to stay on the safe side and avoided the use. Bradycardia  Consuming Brahmi might slow down the heartbeat so people with Bradycardia ailment should avoid it.Gastrointestinal tract blockage: Consuming Brahmi might cause congestion in the intestines so people with this ailment should avoid it."]
+         },
+        {"tag": "Thyme6",
+         "patterns": ["  plant part to eat Thyme" ],"responses": ["Whole plant "], "context": [""]
+        },
+        {"tag": "Thyme7",
+         "patterns": ["what are the disease to cure by using Thyme","the disease to cure by using  Thyme" ],"responses": ["Enchances Memory, Anxiety"], "context": [""]
+        },
+        
+        
+        
+        
+                                      {"tag": "Coriander",
+         "patterns": ["scientific name of " ], "responses": ["Coriandrum sativum Linn Pennel"],"context": [""]
+        },
+        {"tag": "Coriander1",
+         "patterns": ["plant type of " ],"responses": ["herbs"], "context": [""]
+        },
+        {"tag": "Coriander2",
+         "patterns": ["Description of " ],"responses": ["Coriander is a plant. Both the leaves and fruit of coriander are used as food and medicine. However, the term coriander is typically used to refer to the fruit. Coriander leaves are usually referred to as cilantro. In the following sections, the term coriander will be used to describe the fruit. "], "context": [""]
+        },
+        
+        {"tag": "Coriander3",
+         "patterns": ["use type of " ],"responses": ["Edible"], "context": [""]
+        },
+        
+        {"tag": "Coriander4",
+         "patterns": ["what are the uses of " ],"responses": ["Athlete's foot  Early research suggests that putting 6% coriander oil on the skin helps to improve symptoms of athlete's foot. A long-term disorder of the large intestines that causes stomach pain"]
+        },
+        
+        {"tag": "Coriander5",
+         "patterns": ["side effect of  " ],"responses": ["There isn't enough reliable information to know if coriander is safe to use when pregnant or breast-feeding. Stay on the safe side and avoid use. Allergies"], "context": [""]
+        },
+        {"tag": "Coriander6",
+         "patterns": ["  plant part to eat " ],"responses": ["Whole plant "], "context": [""]
+        },
+        {"tag": "Coriander7",
+         "patterns": ["what are the disease to cure by using ","the disease to cure by using  " ],"responses": ["Indigestion, Flatulence, Controls Spasmodic Pain"], "context": [""]
+        },
+        
+        {"tag": "Kalmegh",
+         "patterns": ["scientific name of Kalmegh" ], "responses": ["Andrographis paniculata Pennel"],"context": [""]
+        },
+        {"tag": "Kalmegh1",
+         "patterns": ["plant type of Kalmegh" ],"responses": ["shrubs"], "context": [""]
+        },
+        {"tag": "Kalmegh2",
+         "patterns": ["Description of Kalmegh" ],"responses": ["The botanical name of kalmegh is Andrographis Paniculata and it belongs to the family Acanthaceae and genus Andrographis. Kalmegh is an annual, branched herb that grows up to half to a meter high. The best way to identify this amazing herb is by it’s unique flowers and fruit capsules.  The aerial parts of the plant and the root are used for medicinal purposes. "], "context": [""]
+        },
+        
+        {"tag": "Kalmegh3",
+         "patterns": ["use type of Kalmegh" ],"responses": ["Edible"], "context": [""]
+        },
+        
+        {"tag": "Kalmegh4",
+         "patterns": ["what are the uses of Kalmegh" ],"responses": ["It has been traditionally used for cancer, stomach ache, diabetes, high blood pressure, allergy, bronchitis, fever, flatulence, colic, dengue fever, intestinal worms, wounds, skin diseases, malaria and cancer. It is also used as an antidote for snake bites and insect bites traditionally."]
+        },
+         {"tag": "Kalmegh5",
+         "patterns": ["side effect of  Kalmegh" ],"responses": ["Lowered blood pressure Nausea-like symptoms and loss of appetite Extremely bitter taste if not taken in the capsule form Not recommended for those trying to conceive, pregnant women or women on breastfeeding May increase auto-immune disease symptoms Might slow down blood clotting leading to excessive bleeding Not recommended for patients with gallbladder, kidney, cardiac, and high blood pressure problems"], "context": [""]
+        },
+        {"tag": "Kalmegh6",
+         "patterns": ["Kalmegh  plant part to eat " ],"responses": ["Whole plant "], "context": [""]
+        },
+        {"tag": "Kalmegh7",
+         "patterns": ["what are the disease to cure by using Kalmegh","the disease to cure by using Kalmegh " ],"responses": ["Indigestion, Acne, Diarrhea"], "context": [""]
+        },
+        
+        
+        
+        {"tag": "Garlic",
+         "patterns": ["scientific name of Garlic" ], "responses": ["Allium sativum Pennel"],"context": [""]
+        },
+        {"tag": "Garlic1",
+         "patterns": ["plant type of Garlic" ],"responses": ["herbs"], "context": [""]
+        },
+        {"tag": "Garlic2",
+         "patterns": ["Description of Garlic" ],"responses": ["Allium sativum is a perennial flowering plant growing from a bulb. It has a tall, erect flowering stem that grows up to 1 m. The leaf blade is flat, linear, solid, and approximately 1.25–2.5 cm  wide, with an acute apex. The plant may produce pink to purple flowers from July to September in the Northern Hemisphere. The bulb is odoriferous and contains outer layers of thin sheathing leaves surrounding an inner sheath that encloses the clove. Often the bulb contains 10 to 20 cloves that are asymmetric in shape, except for those closest to the center. If garlic is planted at the proper time and depth, it can be grown as far north as Alaska. It produces hermaphrodite flowers. It is pollinated by bees, butterflies, moths, and other insects. "], "context": [""]
+        },
+        
+        {"tag": "Garlic3",
+         "patterns": ["use type of Garlic" ],"responses": ["Edible"], "context": [""]
+        },
+        
+        {"tag": "Garlic4",
+         "patterns": ["what are the uses of Garlic" ],"responses": ["The garlic plant's bulb is the most commonly used part of the plant. With the exception of the single clove types, garlic bulbs are normally divided into numerous fleshy sections called cloves. Garlic cloves are used for consumption or for medicinal purposes. They have a characteristic pungent, spicy flavor that mellows and sweetens considerably with cooking. The distinctive aroma is mainly due to organosulfur compounds including allicin present in fresh garlic cloves and ajoene which forms when they are crushed or chopped. A further metabolite allyl methyl sulfide is responsible for garlic breath."]
+        },
+        
+        {"tag": "Garlic5",
+         "patterns": ["side effect of Garlic " ],"responses": [" body odor, heartburn, and upset stomach. These side effects can be more noticeable with raw garlic. Some people have allergic reactions to garlic."], "context": [""]
+        },
+        {"tag": "Garlic6",
+         "patterns": ["Garlic  plant part to eat " ],"responses": ["Whole plant "], "context": [""]
+        },
+        {"tag": "Garlic7",
+         "patterns": ["what are the disease to cure by using Garlic","the disease to cure by using  Garlic" ],"responses": ["Ringworm, Dysentery, Wounds"], "context": [""]
+        },
+        
+        
+         {"tag": "Nut Grass",
+         "patterns": ["scientific name of Nut Grass" ], "responses": ["Cyperus rotundus Linn Pennel"],"context": [""]
+        },
+        {"tag": "Nut Grass1",
+         "patterns": ["plant type of Nut Grass" ],"responses": ["herbs"], "context": [""]
+        },
+        {"tag": "Nut Grass2",
+         "patterns": ["Description of Nut Grass" ],"responses": ["Nut-grass or Motha can be seen growing as weed in garden, lawn, fields and waste lands. It looks like grass and have tuberous roots underground. It is a perennial plant. Its blackish tuberous roots have distinct smell due to the presence of essential oil. These rhizomes roots are rich in medicinal properties and used in Ayurveda for the treatment of diseases since time immemorial. They are used fresh and dried. For the medicinal purpose the dried powder or decoction of roots are prescribed."], "context": [""]
+        },
+        
+        {"tag": "Nut Grass3",
+         "patterns": ["use type of Nut Grass" ],"responses": ["Edible"], "context": [""]
+        },
+        
+        {"tag": "Nut Grass4",
+         "patterns": ["what are the uses of Nut Grass" ],"responses": ["They are used internally as well as externally. The decoction of Motha roots with honey is prescribed in diarrhea. In diarrhea with mucus and pain, Motha roots are boiled in milk and given."]
+        },
+        
+        {"tag": "Nut Grass5",
+         "patterns": ["side effect of Nut Grass " ],"responses": ["It should be taken cautiously in constipation."], "context": [""]
+        },
+        {"tag": "Nut Grass6",
+         "patterns": ["Nut Grass plant part to eat " ],"responses": ["Whole plant "], "context": [""]
+        },
+        {"tag": "Nut Grass7",
+         "patterns": ["what are the disease to cure by using Nut Grass","the disease to cure by using  Nut Grass" ],"responses": [""], "context": ["Fever, Diabetes, Solar Dermatitis"]
+        }
+                   
+   
+                
+
+               ]
+}

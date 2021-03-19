@@ -1,0 +1,20 @@
+#start
+   req = request.get_json
+   print(“Request:”)
+   print(json.dumps(req, indent=4))
+#process to do your thing and decide what response should be
+
+   res = processRequest(req)
+# Response we should receive from processRequest (you’ll need to write some code called processRequest and make it return the below, the weather webhook example above is a good one).
+{
+       “speech”: “speech we want to send back”,
+       “displayText”: “display text we want to send back, usually matches speech”,
+       “source”: “your app name”
+   }
+
+# Making our response readable by API.AI and sending it back to the service
+
+response = make_response(res)
+   response.headers[‘Content-Type’] = ‘application/json’
+   return response
+# End
